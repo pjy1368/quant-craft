@@ -1,10 +1,10 @@
-package com.quant.craft.backend.application.service;
+package com.quant.craft.backend.application.service.trade;
 
 import com.quant.craft.backend.domain.trade.BackTesting;
 import com.quant.craft.backend.domain.user.User;
 import com.quant.craft.backend.exception.NotFoundException;
 import com.quant.craft.backend.infrastructure.client.trade.BackTestingClient;
-import com.quant.craft.backend.infrastructure.repository.BackTestingRepository;
+import com.quant.craft.backend.infrastructure.repository.trade.BackTestingRepository;
 import com.quant.craft.backend.presentation.controller.trade.dto.request.RunBackTestingRequest;
 import com.quant.craft.backend.presentation.controller.trade.dto.response.BackTestingResponse;
 import lombok.RequiredArgsConstructor;

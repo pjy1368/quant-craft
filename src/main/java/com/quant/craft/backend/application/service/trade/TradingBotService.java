@@ -1,10 +1,10 @@
-package com.quant.craft.backend.application.service;
+package com.quant.craft.backend.application.service.trade;
 
 import com.quant.craft.backend.domain.trade.TradingBot;
 import com.quant.craft.backend.domain.user.User;
 import com.quant.craft.backend.exception.NotFoundException;
 import com.quant.craft.backend.infrastructure.client.trade.TradingBotClient;
-import com.quant.craft.backend.infrastructure.repository.TradingBotRepository;
+import com.quant.craft.backend.infrastructure.repository.trade.TradingBotRepository;
 import com.quant.craft.backend.presentation.controller.trade.dto.request.CreateTradingBotRequest;
 import com.quant.craft.backend.presentation.controller.trade.dto.response.TradingBotResponse;
 import lombok.RequiredArgsConstructor;

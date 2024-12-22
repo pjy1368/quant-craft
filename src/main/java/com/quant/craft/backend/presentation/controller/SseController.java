@@ -5,7 +5,7 @@ import com.quant.craft.backend.domain.trade.TradingBot;
 import com.quant.craft.backend.domain.user.User;
 import com.quant.craft.backend.exception.BadRequestException;
 import com.quant.craft.backend.exception.NotFoundException;
-import com.quant.craft.backend.infrastructure.repository.TradingBotRepository;
+import com.quant.craft.backend.infrastructure.repository.trade.TradingBotRepository;
 import com.quant.craft.backend.presentation.argumentresolver.RequiredLogin;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.MediaType;

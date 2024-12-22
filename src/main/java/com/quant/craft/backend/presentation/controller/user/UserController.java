@@ -1,7 +1,7 @@
 package com.quant.craft.backend.presentation.controller.user;
 
 
-import com.quant.craft.backend.application.service.TradingBotService;
+import com.quant.craft.backend.application.service.trade.TradingBotService;
 import com.quant.craft.backend.application.service.UserService;
 import com.quant.craft.backend.domain.user.User;
 import com.quant.craft.backend.presentation.argumentresolver.RequiredLogin;
